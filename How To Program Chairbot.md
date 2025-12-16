@@ -4,27 +4,27 @@ Please note that this file is only validated to work on the HP Windows 10 roboti
 
 Here’s how you can control Chairbot:
 
-1.   To tun on chairbot, plug in the battery and press in the black tab on the side of the breaker.
-1.2. flashing lights should appear, this means the robot is on.
-2.   Join the Chairbot Wi-Fi network (5994, there is no password) or connect to it via USB B cable.
-2.1. Once the computer is connected to the network, you should see the battery voltage and the communications bar turn from red to green in the DriverStation app.
-2.2. Wait until the communications and robot code indicator bars turns green to control the robot.
-3.   To move the robot, connect a joystick to the computer. 
-3.1. A proper connection will be indicated by a green bar next to the joystick indicator in the DriverStation app.
-4.   To activate the robot, click “Enable” under the “Operation” tab (the tab on the left with the steering wheel icon).
-4.1. Once enabled, all flashing lights on Chairbot will turn solid, indicating that you can control it.
-5.   Congratulations, you can now control Chairbot. Use the joystick you connected in an earlier step to control it
-5.1. the the back of Chairbot is where the battery goes.
-6.   press the red button on the breaker to turn the robot off.
-6.1. all lights should turn off. this indicates the robot is off.
+1. To tun on chairbot, plug in the battery and press in the black tab on the side of the breaker.
+   1. flashing lights should appear, this means the robot is on.
+2. Join the Chairbot Wi-Fi network (5994, there is no password) or connect to it via USB B cable.
+   1. Once the computer is connected to the network, you should see the battery voltage and the communications bar turn from red to green in the DriverStation app.
+   2. Wait until the communications and robot code indicator bars turns green to control the robot.
+3. To move the robot, connect a joystick to the computer. 
+   1. A proper connection will be indicated by a green bar next to the joystick indicator in the DriverStation app.
+4. To activate the robot, click "Enable" under the "Operation" tab (the tab on the left with the steering wheel icon).
+   1. Once enabled, all flashing lights on Chairbot will turn solid, indicating that you can control it.
+5. Congratulations, you can now control Chairbot. Use the joystick you connected in an earlier step to control it
+   1. the the back of Chairbot is where the battery goes.
+6. press the red button on the breaker to turn the robot off.
+   1. all lights should turn off. this indicates the robot is off.
 
 
 To access the file system and edit the files of Chairbot, use FileZilla or another FTP client. Here’s the login information:
 
-HOST: roboRIO-5994-frc.local
-USER: lvuser
-PASSWORD: *leave this blank*
-PORT: 22
+- HOST: roboRIO-5994-frc.local
+- USER: lvuser
+- PASSWORD: *leave this blank*
+- PORT: 22
 
 If you want to upload a file to replace or modify an existing file or function, ensure that the uploaded files have the same name as the files you’re replacing. This will prevent any errors during operation. As a precaution, I suggest leaving the old files in Chairbot, but change their names to include the suffix “-old”.
 
