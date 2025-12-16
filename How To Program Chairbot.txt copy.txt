@@ -1,0 +1,40 @@
+Hello future LCC Robotics team members! This text file is designed to assist you in controlling and modifying the code of Chairbot. I hope it will enable us to continue using Chairbot for many years to come.
+
+Please note that this file is only validated to work on the HP Windows 10 robotics laptop. Using other devices may result in instability. If you want to control Chairbot, I also recommend using the control program on the robotics laptop.
+
+Here’s how you can control Chairbot:
+
+1.   To tun on chairbot, plug in the battery and press in the black tab on the side of the breaker.
+1.2. flashing lights should appear, this means the robot is on.
+2.   Join the Chairbot Wi-Fi network (5994, there is no password) or connect to it via USB B cable.
+2.1. Once the computer is connected to the network, you should see the battery voltage and the communications bar turn from red to green in the DriverStation app.
+2.2. Wait until the communications and robot code indicator bars turns green to control the robot.
+3.   To move the robot, connect a joystick to the computer. 
+3.1. A proper connection will be indicated by a green bar next to the joystick indicator in the DriverStation app.
+4.   To activate the robot, click “Enable” under the “Operation” tab (the tab on the left with the steering wheel icon).
+4.1. Once enabled, all flashing lights on Chairbot will turn solid, indicating that you can control it.
+5.   Congratulations, you can now control Chairbot. Use the joystick you connected in an earlier step to control it
+5.1. the the back of Chairbot is where the battery goes.
+6.   press the red button on the breaker to turn the robot off.
+6.1. all lights should turn off. this indicates the robot is off.
+
+
+To access the file system and edit the files of Chairbot, use FileZilla or another FTP client. Here’s the login information:
+
+HOST: roboRIO-5994-frc.local
+USER: lvuser
+PASSWORD: *leave this blank*
+PORT: 22
+
+If you want to upload a file to replace or modify an existing file or function, ensure that the uploaded files have the same name as the files you’re replacing. This will prevent any errors during operation. As a precaution, I suggest leaving the old files in Chairbot, but change their names to include the suffix “-old”.
+
+Chairbot is programmed using Python (to the best of my knowledge).
+
+If you wish to modify the robot, refer to these resources to comprehend its capabilities and programming methods, as well as the appropriate file locations. Additionally, there’s a forum dedicated to the FRC that may provide valuable information.
+
+OFFICIAL FRC DOCUMENTATION: https://docs.wpilib.org/en/stable/index.html
+
+UNOFFICIAL FRC FORUM: https://www.chiefdelphi.com/
+
+May Chairbot endure for many years to come. -SL
+
